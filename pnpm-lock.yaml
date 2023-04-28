@@ -1,5 +1,10 @@
 lockfileVersion: '6.0'
 
+dependencies:
+  '@reatom/core':
+    specifier: ^3.2.0
+    version: 3.2.0
+
 devDependencies:
   '@logux/eslint-config':
     specifier: ^49.0.0
@@ -404,6 +409,10 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
     dev: true
+
+  /@reatom/core@3.2.0:
+    resolution: {integrity: sha512-maFSz2bRFFrxpV+Db3QE1H7uhmERSWYrcNZ7gomoAndQRvvthBBC0OR2F9kDZ3LTppdnak5kK5pwe645zSy2pQ==}
+    dev: false
 
   /@size-limit/esbuild@8.2.4(size-limit@8.2.4):
     resolution: {integrity: sha512-kPgNfpwUvBD98s5axlf1UciFg4Ki4AYSl/cOmSyyYBuzksHiwW7Myeu0w4mTxtV9nwBFbkrrNXqszE7b+OhFLA==}

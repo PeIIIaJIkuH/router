@@ -104,5 +104,8 @@
   ],
   "clean-publish": {
     "cleanDocs": true
+  },
+  "dependencies": {
+    "@reatom/core": "^3.2.0"
   }
 }
