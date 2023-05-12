@@ -4,6 +4,9 @@ dependencies:
   '@reatom/core':
     specifier: ^3.2.0
     version: 3.2.0
+  '@reatom/hooks':
+    specifier: ^3.4.0
+    version: 3.4.0
 
 devDependencies:
   '@logux/eslint-config':
@@ -54,9 +57,6 @@ devDependencies:
   jsdom:
     specifier: ^21.1.1
     version: 21.1.1
-  nanostores:
-    specifier: ^0.8.0
-    version: 0.8.0
   size-limit:
     specifier: ^8.2.4
     version: 8.2.4
@@ -412,6 +412,17 @@ packages:
 
   /@reatom/core@3.2.0:
     resolution: {integrity: sha512-maFSz2bRFFrxpV+Db3QE1H7uhmERSWYrcNZ7gomoAndQRvvthBBC0OR2F9kDZ3LTppdnak5kK5pwe645zSy2pQ==}
+    dev: false
+
+  /@reatom/hooks@3.4.0:
+    resolution: {integrity: sha512-Xjp1RkLUSzqdrH+IE47NuRue5bkrRmQ4PRYRQe1LOdCBQs2nP+NSmzCGGIj3hqGT+/GTq4RgdFjTElcw4OFblw==}
+    dependencies:
+      '@reatom/core': 3.2.0
+      '@reatom/utils': 3.2.2
+    dev: false
+
+  /@reatom/utils@3.2.2:
+    resolution: {integrity: sha512-mAyKwwbIriZQmT33rEZ+dynsZ6lOXH0BygMMx+FQI1MDiJNpVqcjmcLN5/6pl+koB3Gmyf4Qb9+l82GyeEi8Gw==}
     dev: false
 
   /@size-limit/esbuild@8.2.4(size-limit@8.2.4):
@@ -2257,11 +2268,6 @@ packages:
     resolution: {integrity: sha512-yFvNYMig4AthKYfHFl1sLj7B2nkHL4lzdig4osvl9/LdGbXwrdFRoqBS98gsEsOakr0yH+r5NZ/1Y9gdVB8trA==}
     dependencies:
       picocolors: 1.0.0
-    dev: true
-
-  /nanostores@0.8.0:
-    resolution: {integrity: sha512-Xgs3qwYhNYXyglDe41JEtACDvFZELFRofDBqBuJ02JG1mrwXWneQTsk89GHvW0bgLPcWXOz4GRm4enwgjnD8FQ==}
-    engines: {node: ^16.0.0 || >=18.0.0}
     dev: true
 
   /natural-compare-lite@1.4.0:

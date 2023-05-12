@@ -34,9 +34,6 @@
       "url": "https://github.com/sponsors/ai"
     }
   ],
-  "peerDependencies": {
-    "nanostores": "^0.8.0"
-  },
   "devDependencies": {
     "@logux/eslint-config": "^49.0.0",
     "@size-limit/preset-small-lib": "^8.2.4",
@@ -54,7 +51,6 @@
     "eslint-plugin-prefer-let": "^3.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "jsdom": "^21.1.1",
-    "nanostores": "^0.8.0",
     "size-limit": "^8.2.4",
     "tsm": "^2.3.0",
     "typescript": "^5.0.4",
@@ -106,6 +102,7 @@
     "cleanDocs": true
   },
   "dependencies": {
-    "@reatom/core": "^3.2.0"
+    "@reatom/core": "^3.2.0",
+    "@reatom/hooks": "^3.4.0"
   }
 }
